@@ -1,0 +1,295 @@
+:root {
+	--color-navbar: #202020;
+	--color-certification-background: #404040;
+	--color-background-color: #f0f0f0;
+	--color-background-introduction: #C0C0C0;	
+	
+	--color-nav-text: #fff;
+	--color-text: #f0f0f0;
+	--color-title: #202020;
+	
+}
+
+* {
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--color-background-color);
+}
+
+a {
+	text-decoration: none;
+
+}
+
+/* STYLING NAVIGATION BAR */
+#nav-bar {
+	width: 100vw;
+	height: 5rem;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	background-color: var(--color-navbar);
+}
+
+#nav-bar a {
+	margin-right: 1.9rem;
+
+	font-size: 1.1rem;
+	font-weight: bold;
+
+	color: var(--color-nav-text);
+}
+
+/* STYLING INTRODUCTION */
+
+#introduction {
+	margin-top: 5rem;
+
+	width: 100vw;
+	height: 60vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--color-background-introduction);
+
+	color: var(--color-title);
+}
+
+#foto {
+	height: 12rem;
+	border: solid 2px var(--color-title);
+	border-radius: 50%;
+}
+
+#introduction h1 {
+	text-align: center;
+	margin-top: 1rem;
+
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+#introduction h3 {
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 1.1rem;
+}
+
+/* STYLING CERTIFICATIONS */
+
+main {
+	padding: 2rem;
+}
+
+main h2 {
+	font-weight: 700;
+
+	margin-top: 2rem;
+	color: var(--color-title);
+}
+
+main h2:first-child {
+	font-weight: 700;
+
+	margin-top: 0rem;
+}
+
+#dev, #infra, #softwares, #metodo, #contact {
+	scroll-margin-top: 7rem;
+}
+
+.display-certifications{
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.certifications {
+	display: grid;
+
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 4rem;
+
+	margin-top: 1rem;
+}
+
+.certification {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 0.5rem;
+
+	background-color: var(--color-certification-background);
+
+	border-radius: 0.5rem;
+
+	width: 20rem;
+
+}
+
+.certification img {
+	width: 300px;
+	height: auto;
+	
+	border: solid black 2px;
+
+}
+
+.certification-description {
+	margin-top: 0.5rem;
+	text-align: center;
+
+	color: var(--color-text);
+}
+
+/* STYLING FOOTER */
+footer {
+	height: 10vh;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#contact {
+	width: 10rem;
+	display: flex;
+
+	justify-content: space-around;
+}
+
+footer a img {
+	width: 50px;
+	height: 50px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1600px){
+	.certifications {
+		display: grid;
+	
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2rem;
+	
+	}
+	
+}
+
+@media screen and (max-width: 1280px){
+	#nav-bar {
+		justify-content: center;
+	}
+
+	.certifications {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+	
+	}
+	
+}
+
+
+/* STYLING FOR MOBILE */
+
+@media screen and (max-width: 700px){
+	#nav-bar {
+		padding: 1rem;
+
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 0.5rem;
+	}
+
+	#nav-bar a {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	/* INTRODUCTION STYLING MOBILE */
+
+	#foto {
+		height: 12rem;
+		border: solid 2px var(--color-title);
+		border-radius: 50%;
+	}
+
+	#introduction {
+		margin-top: 7rem;
+	}
+
+
+	#introduction h1{
+		font-size: 2rem;
+	}
+	
+	#introduction h3 {
+		font-size: 1.1rem;
+	}
+
+	/* TOPICS SCROLL MARGIN */
+
+	#dev, #infra, #softwares, #metodo, #contact {
+		scroll-margin-top: 8rem;
+	}	
+
+	/* STYLING CERTIFICATIONS ON MOBILE */
+
+	.certifications {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 1rem;
+	
+	}
+
+	.certification {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+		padding: 0.5rem;
+	
+		background-color: var(--color-certification-background);
+	
+		border-radius: 0.5rem;
+	
+		width: 15rem;
+	
+	}
+	
+	.certification img {
+		width: 200px;
+	
+	}
+
+	.certification-description {
+		font-size: 1rem;
+	}
+
+}
+
+@media screen and (max-width: 539px){
+	#nav-bar {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+}

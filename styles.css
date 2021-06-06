@@ -172,10 +172,10 @@ footer {
 }
 
 #contact {
-	width: 10rem;
+	width: 20rem;
 	display: flex;
 
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 footer a img {

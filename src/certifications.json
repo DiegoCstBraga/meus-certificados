@@ -1,0 +1,17 @@
+{
+  "certifications" : [
+    {
+      "name" : "Python for Beginners: Learn Python Programming (Python 3)",
+      "type" : "dev",
+      "imageURL" : "https://udemy-certificate.s3.amazonaws.com/image/UC-d89f600f-bc23-4818-80be-ba5335b61604.jpg?v=1621957700000",
+      "certificationURL" : "https://ude.my/UC-d89f600f-bc23-4818-80be-ba5335b61604"
+    },
+    {
+      "name" : "das",
+      "type" : "dasda",
+      "imageURL" : "adsdsa",
+      "certificationURL" : "adsdsadas"
+    }
+  ]
+}
+

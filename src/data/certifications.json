@@ -1,0 +1,100 @@
+{
+	"certifications": [
+		{
+			"name": "AWS Concepts",
+			"type": "infra",
+			"imageURL": "./assets/certifications/aws-concepts.jpg",
+			"certificationURL": "https://ude.my/UC-06a7bd39-81ca-4a31-80be-c9c9998ed1c9/"
+		},
+		{
+			"name": "Creativity, Design Thinking, and Innovation for Business",
+			"type": "methodology",
+			"imageURL": "./assets/certifications/design-thinking.jpg",
+			"certificationURL": "https://ude.my/UC-bd0d146c-d0f5-4873-8ed9-032ced29bcf2"
+		},
+		{
+			"name": "Alteryx Bootcamp",
+			"type": "software",
+			"imageURL": "./assets/certifications/alteryx-bootcamp.jpg",
+			"certificationURL": "https://ude.my/UC-e53ae0ed-ad32-4ec1-907f-e05a99323b36"
+		},
+		{
+			"name": "Power BI A-Z: Hands-On Power BI Training For Data Science!",
+			"type": "software",
+			"imageURL": "./assets/certifications/power-bi.jpg",
+			"certificationURL": "https://www.udemy.com/certificate/UC-ab84a5a8-a4bd-467f-a934-7037ae767367/"
+		},
+    {
+      "name" : "Introdução ao Git e ao GitHub",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/git-github.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/008CD5DD"
+    },
+    {
+      "name" : "Programação para internet com HTML5 e CSS3",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/prog-html5-css3.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/6DBE81FB"
+    },
+    {
+      "name" : "Python for Beginners: Learn Python Programming (Python 3)",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/python-for-beginners.jpg",
+      "certificationURL" : "https://ude.my/UC-d89f600f-bc23-4818-80be-ba5335b61604"
+    },
+		{
+			"name": "Responsive Web Design",
+			"type": "dev",
+			"imageURL": "./assets/certifications/responsive-web-design.png",
+			"certificationURL": "https://www.freecodecamp.org/certification/diegocstbraga/responsive-web-design"
+		},
+    {
+      "name" : "Programação para internet com JavaScript",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/prog-javascript.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/89A55CA1"
+    },
+    {
+      "name" : "Construindo páginas para internet com Bootstrap",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/bootstrap.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/4D628085"
+    },
+    {
+      "name" : "HTML Web Developer",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/html-web-developer.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/1708E2E5"
+    },
+    {
+      "name" : "JavaScript ES6 essencial",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/javascript-es6.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/F9551C77"
+    },
+    {
+      "name" : "Aprenda o que são Estrutura de Dados e Algoritmos",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/estrutura-dados.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/43E1E442"
+    },
+    {
+      "name" : "Desenvolvimento avançado com JavaScript ES6",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/javascript-es6-avancado.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/6112D360"
+    },
+    {
+      "name" : "Introdução ao ReactJS",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/introducao-reactjs.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/C7F4349A"
+    },
+    {
+      "name" : "Trabalhando com Componentes em React",
+      "type" : "dev",
+      "imageURL" : "./assets/certifications/react-components.jpg",
+      "certificationURL" : "https://certificates.digitalinnovation.one/B424A389"
+    }
+	]
+}

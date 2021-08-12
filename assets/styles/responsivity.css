@@ -1,0 +1,114 @@
+/* Import predefined values */
+@import url(./global.css);
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1600px){
+	.certifications {
+		display: grid;
+	
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2rem;
+	
+	}
+	
+}
+
+@media screen and (max-width: 1280px){
+	#nav-bar {
+		justify-content: center;
+	}
+
+	.certifications {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+	
+	}
+	
+}
+
+
+/* STYLING FOR MOBILE */
+
+@media screen and (max-width: 700px){
+	#nav-bar {
+		padding: 1rem;
+
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 0.5rem;
+	}
+
+	#nav-bar a {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	/* INTRODUCTION STYLING MOBILE */
+
+	#foto {
+		height: 12rem;
+		border: solid 2px var(--color-title);
+		border-radius: 50%;
+	}
+
+	#introduction {
+		margin-top: 7rem;
+	}
+
+
+	#introduction h1{
+		font-size: 2rem;
+	}
+	
+	#introduction h3 {
+		font-size: 1.1rem;
+	}
+
+	/* TOPICS SCROLL MARGIN */
+
+	#dev, #infra, #softwares, #metodo, #contact {
+		scroll-margin-top: 8rem;
+	}	
+
+	/* STYLING CERTIFICATIONS ON MOBILE */
+
+	.certifications {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 1rem;
+	
+	}
+
+	.certification {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+		padding: 0.5rem;
+	
+		background-color: var(--color-certification-background);
+	
+		border-radius: 0.5rem;
+	
+		width: 15rem;
+	
+	}
+	
+	.certification img {
+		width: 200px;
+    height: auto;
+    	
+	}
+
+	.certification-description {
+		font-size: 1rem;
+	}
+
+}
+
+@media screen and (max-width: 539px){
+	#nav-bar {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+}

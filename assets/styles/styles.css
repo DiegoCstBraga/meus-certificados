@@ -1,0 +1,179 @@
+@import url(./global.css);
+
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--color-background-color);
+}
+
+a {
+	text-decoration: none;
+
+}
+
+/* STYLING NAVIGATION BAR */
+#nav-bar {
+	width: 100vw;
+	height: 5rem;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+  box-sizing: content-box;
+
+	background-color: var(--color-navbar);
+}
+
+#nav-bar a {
+	margin-right: 1.9rem;
+
+	font-size: 1.1rem;
+	font-weight: bold;
+
+	color: var(--color-nav-text);
+}
+
+/* STYLING INTRODUCTION */
+
+#introduction {
+	margin-top: 5rem;
+
+	width: 100%;
+	height: 60vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--color-background-introduction);
+
+	color: var(--color-title);
+}
+
+#foto {
+	height: 12rem;
+	border: solid 2px var(--color-title);
+	border-radius: 50%;
+}
+
+#introduction h1 {
+	text-align: center;
+	margin-top: 1rem;
+
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+#introduction h3 {
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 1.1rem;
+}
+
+/* STYLING CERTIFICATIONS */
+
+main {
+	padding: 2rem;
+}
+
+main h2 {
+	font-weight: 700;
+
+	margin-top: 2rem;
+	color: var(--color-title);
+}
+
+main h2:first-child {
+	font-weight: 700;
+
+	margin-top: 0rem;
+}
+
+#dev, #infra, #softwares, #metodo, #contact {
+	scroll-margin-top: 7rem;
+
+}
+
+.certifications-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.certifications {
+	display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 2rem 4rem;
+}
+
+.certification {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  width: 20rem;
+
+	padding: 0.5rem;
+
+	background-color: var(--color-certification-background);
+
+	border-radius: 0.5rem;
+
+}
+
+.certification img {
+	width: auto;
+	height: 215px;
+	
+	border: solid black 2px;
+
+}
+
+.certification-description {
+	margin-top: 0.5rem;
+	text-align: center;
+
+  display: flex;
+  flex: 1;
+  align-items: center;  
+
+	color: var(--color-text);
+}
+
+/* STYLING FOOTER */
+footer {
+	height: 10vh;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#contact {
+	width: 15rem;
+	display: flex;
+
+	justify-content: space-evenly;
+}
+
+footer a img {
+	width: 50px;
+	height: 50px;
+}

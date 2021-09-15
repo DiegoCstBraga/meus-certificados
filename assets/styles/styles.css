@@ -2,10 +2,10 @@
 
 * {
 	margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	padding: 0;
+	box-sizing: border-box;
 
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -18,7 +18,6 @@ body {
 
 a {
 	text-decoration: none;
-
 }
 
 /* STYLING NAVIGATION BAR */
@@ -35,7 +34,7 @@ a {
 	justify-content: flex-end;
 	align-items: center;
 
-  box-sizing: content-box;
+	box-sizing: content-box;
 
 	background-color: var(--color-navbar);
 }
@@ -106,55 +105,60 @@ main h2:first-child {
 	margin-top: 0rem;
 }
 
-#dev, #infra, #softwares, #metodo, #contact {
+#dev,
+#infra,
+#softwares,
+#metodo,
+#contact {
 	scroll-margin-top: 7rem;
-
 }
 
-.certifications-container{
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
+.certifications-container {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
 }
 
 .certifications {
 	display: grid;
-  grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 
-  gap: 2rem 4rem;
+	gap: 2rem 4rem;
 }
 
 .certification {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-  width: 20rem;
+	width: 20rem;
 
 	padding: 0.5rem;
 
 	background-color: var(--color-certification-background);
 
 	border-radius: 0.5rem;
+}
 
+.certification a {
+	color: var(--color-text);
 }
 
 .certification img {
 	width: auto;
 	height: 215px;
-	
-	border: solid black 2px;
 
+	border: solid black 2px;
 }
 
 .certification-description {
 	margin-top: 0.5rem;
 	text-align: center;
 
-  display: flex;
-  flex: 1;
-  align-items: center;  
+	display: flex;
+	flex: 1;
+	align-items: center;
 
-	color: var(--color-text);
+  color: var(--color-text);
 }
 
 /* STYLING FOOTER */
@@ -167,13 +171,11 @@ footer {
 }
 
 #contact {
-	width: 15rem;
 	display: flex;
-
-	justify-content: space-evenly;
+	gap: 32px;
 }
 
-footer a img {
-	width: 50px;
-	height: 50px;
+.medium__icon {
+	width: var(--icon-size-medium);
+	height: var(--icon-size-medium);
 }

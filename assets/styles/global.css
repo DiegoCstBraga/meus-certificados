@@ -2,10 +2,11 @@
 	--color-navbar: #202020;
 	--color-certification-background: #404040;
 	--color-background-color: #f0f0f0;
-	--color-background-introduction: #C0C0C0;	
-	
+	--color-background-introduction: #c0c0c0;
+
 	--color-nav-text: #fff;
 	--color-text: #f0f0f0;
 	--color-title: #202020;
-	
+
+	--icon-size-medium: 48px;
 }
